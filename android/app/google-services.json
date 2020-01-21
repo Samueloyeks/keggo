@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "963310797425",
+    "firebase_url": "https://keggo-f2538.firebaseio.com",
+    "project_id": "keggo-f2538",
+    "storage_bucket": "keggo-f2538.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963310797425:android:6729b50bdb7e722ba211d0",
+        "android_client_info": {
+          "package_name": "com.keggo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcKRJgNhUXO082DgaK8yyegF20e6Isa6Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963310797425-kdlou5c4aafgjag2h7uju84tcpk940nu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "963310797425-qv63tp5o4mibijqesfe5td5lutfl8gsm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.keggo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
