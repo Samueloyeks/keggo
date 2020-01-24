@@ -2,15 +2,17 @@ import React, { useState } from 'react';
 import { Platform, StatusBar, StyleSheet, View } from 'react-native';
 import AppNavigator from './navigation/AppNavigator';
 
-export default function App(props) {
+
+ export default function App(props) {
   const [isLoadingComplete, setLoadingComplete] = useState(false);
     return (
       <View style={styles.container}>
         {Platform.OS === 'ios' && <StatusBar barStyle="default" />}
         <AppNavigator />
       </View>
-    );
+    ); 
 }
+
 
 
 const styles = StyleSheet.create({

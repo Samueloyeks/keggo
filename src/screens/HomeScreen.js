@@ -33,7 +33,6 @@ class HomeScreen extends Component {
   _bootstrapAsync = async () => {
     const data = await AsyncStorage.getItem('userData')
     var userData = JSON.parse(data)
-    alert(userData)
     this.setState({
       firstName:userData.firstName,
       lastName:userData.lastName,

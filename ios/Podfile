@@ -60,7 +60,6 @@ target 'keggo' do
   pod 'react-native-twitter-signin', :path => '../node_modules/react-native-twitter-signin'
 
 
-
   target 'keggoTests' do
     inherit! :search_paths
     # Pods for testing

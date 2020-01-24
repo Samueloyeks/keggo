@@ -3,6 +3,8 @@ var user = {
     lastName:null,
     email: null,
     phone:null,
+    profilePicture:null,
+    id:null
 }
 
 export default user
