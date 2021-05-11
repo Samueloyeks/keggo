@@ -4561,9 +4561,9 @@ lodash.unescape@4.0.1:
   integrity sha1-vyJJiGzlFM2hEvrpIYzcBlIR/Jw=
 
 lodash@^4.17.10, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.5, lodash@^4.3.0:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 log-symbols@^2.2.0:
   version "2.2.0"
@@ -5702,7 +5702,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.3"
 
-prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.10, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -5820,6 +5820,11 @@ react-native-config@^0.12.0:
   resolved "https://registry.yarnpkg.com/react-native-config/-/react-native-config-0.12.0.tgz#910e52226b60e0c9f2b648772eea2a93f8701751"
   integrity sha512-lC8QOZCGCXgFh74uWSVGMaChg+Qf2BScWzVd9C4yrFnfxrHSFyIekqOOq/sjE8Uu2ifgxZmSiK1Z8EEi78AmQA==
 
+react-native-custom-actionsheet@^0.1.0:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/react-native-custom-actionsheet/-/react-native-custom-actionsheet-0.1.1.tgz#a89b01582c931b48e77a8008a64f971c582355d2"
+  integrity sha512-AVURz8ZVL0VzFx5tfZRyVQihFMksAV2GtLDO5rx5rdH/g+0JwmGveYgkHng2ZXP+JjfTuNBlCgN59MfGToxRAQ==
+
 react-native-dotenv@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/react-native-dotenv/-/react-native-dotenv-0.2.0.tgz#311551cb6a35a3dcfede648bded55c0e3ece579d"
@@ -5866,6 +5871,19 @@ react-native-reanimated@^1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/react-native-reanimated/-/react-native-reanimated-1.7.0.tgz#896db2576552ac59d288a1f6c7f00afc171f240c"
   integrity sha512-FQWSqP605eQVJumuK2HpR+7heF0ZI+qfy4jNguv3Xv8nPFHeIgZaRTXHCEQL2AcuSIj50zy8jGJf5l134QMQWQ==
+
+react-native-root-siblings@^4.0.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/react-native-root-siblings/-/react-native-root-siblings-4.1.0.tgz#23305a0f96ebd27cff3667d1cb980684da35e5d1"
+  integrity sha512-KgkciaZYSUQrPOFOLlFXJCtY54r7BMhFXa+P58xrZZuWFcMWiIB1QCRO48DQSKi1EEsRj5cw5Gan961zUC4jng==
+
+react-native-root-toast@^3.2.0:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/react-native-root-toast/-/react-native-root-toast-3.2.1.tgz#f456d029f5c5b76e4b686334f25371465478a3be"
+  integrity sha512-BNf6LKMqcIAonKgqCGQWk+1lduFqSjPYbEF0FygMZbXhODRTvrGUAvAgV6kfamVPOkKHUkPU7dnnvmgEQ8ZDzQ==
+  dependencies:
+    prop-types "^15.5.10"
+    react-native-root-siblings "^4.0.0"
 
 react-native-safe-area-context@^0.6.2:
   version "0.6.2"
